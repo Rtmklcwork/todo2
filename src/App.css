@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-btn {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  color: rgb(59, 57, 57);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-1 {
+  
+  box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+  background: rgb(6,14,131);
+  background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+  border: none;
+}
+.btn-1:hover {
+   background: rgb(0,3,255);
+   background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+}
+.first  {
+  margin: 0 auto;
+  max-width: 600px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+
+  }
+  .first li {
+  padding: 10px 30px;
+  background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+  border-bottom: 1px solid grey;
+  color: #506a6b;
+  font-size: 20px;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+  margin-bottom: 5px;
+  }
+  .first li:last-child {border-bottom: none;} 
